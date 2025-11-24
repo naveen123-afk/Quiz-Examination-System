@@ -1,98 +1,74 @@
-📝 Programming Quiz Game
+Here is a *short, clean, GitHub-ready README* for your project:
 
-A simple and interactive Python-based quiz game that tests users on basic programming concepts.
-It randomly selects questions, calculates the score, applies bonuses, and maintains a persistent leaderboard stored in scores.txt.
+---
 
-🚀 Features
+# 📝 Programming Quiz Game
 
-🎯 Randomized Questions – Each quiz session selects 10 random questions.
+A simple and interactive *Python quiz game* that tests basic programming knowledge.
+It randomly selects questions, scores the player's answers, and maintains a *leaderboard* using a local file.
 
-🧠 Multiple-Choice Format – Easy A/B/C/D input system.
+---
 
-⭐ Scoring System
+## 🚀 Features
 
-+10 points for each correct answer
+* 🎯 10 randomly selected multiple-choice questions
+* 🧠 Easy A/B/C/D answer input
+* ⭐ Scoring system (+10 correct, –3 incorrect, +9 bonus)
+* 🏆 Leaderboard saved in scores.txt
+* 📂 Simple and beginner-friendly Python code
 
-−3 points for each incorrect answer
+---
 
-+9 bonus points at the end
+## ▶ How to Run
 
-🏆 Leaderboard – Automatically saves and displays high scores.
+Run the script using Python:
 
-📂 Persistent Storage – Scores are saved in scores.txt.
-
-🖥 Beginner-Friendly Python Code – Simple and easy to understand.
-
-📌 How It Works
-
-The program displays a welcome banner.
-
-Randomly selects 10 questions from the question bank.
-
-The user answers each question (A/B/C/D).
-
-The score is calculated and bonus added.
-
-User enters their name.
-
-Score is saved in scores.txt.
-
-The leaderboard is displayed, sorted by highest score.
-
-📁 File Structure
-📦 Programming-Quiz-Game
- ┣ 📜 quiz.py           # Main quiz script
- ┣ 📜 scores.txt        # Stored high scores
- ┗ 📜 README.md         # Project documentation
-
-▶ How to Run
-
-Make sure Python is installed on your system.
-
+bash
 python quiz.py
 
 
-The game will start instantly and prompt you with questions.
+---
 
-💡 Requirements
+## 📁 Files
 
-Python 3.6+
 
-No external libraries required (only built-in modules)
+quiz.py        # Main quiz script
+scores.txt     # Leaderboard storage
+README.md      # Project documentation
 
-📝 Customization
 
-You can easily modify the quiz by:
+---
 
-Adding new questions to Questions list.
+## ✏ Customization
 
-Updating or changing answer options.
+You can easily update:
 
-Adjusting scoring rules.
+* Questions and answers
+* Number of questions asked
+* Scoring rules
+* Output formatting
 
-Changing number of questions asked.
+---
 
-🏅 Leaderboard Format
+## 🏅 Leaderboard Format
+
 
 score | name
 
+
 Example:
 
-89     |   Alice
-72     |   Mark
-54     |   Rahul
 
-🤝 Contribution
+89 | Arnav
+72 | Rudraksha
 
-Pull requests and improvements are welcome!
-You may add:
 
-GUI interface
+---
 
-Difficulty levels
+## 📜 License
 
-Category-based question selection
+Free to use and modify for learning or projects.
 
-📜 License
+---
 
-This project is free to use, modify, and distribute.
+

@@ -1,99 +1,98 @@
-# Quiz-Examination-System
-Programming Quiz Game
+📝 Programming Quiz Game
 
-This project is a simple Python-based quiz game that tests basic programming and computer science knowledge. The program selects 10 random questions from a question bank, checks the user’s answers, calculates a score, and records the final result in a leaderboard stored in a file called scores.txt.
+A simple and interactive Python-based quiz game that tests users on basic programming concepts.
+It randomly selects questions, calculates the score, applies bonuses, and maintains a persistent leaderboard stored in scores.txt.
 
-Features
+🚀 Features
 
-Randomly selects 10 questions from a list of 20.
+🎯 Randomized Questions – Each quiz session selects 10 random questions.
 
-Gives +10 points for each correct answer and -3 points for each incorrect answer.
+🧠 Multiple-Choice Format – Easy A/B/C/D input system.
 
-Adds a bonus of +9 points after the quiz.
+⭐ Scoring System
 
-Saves the user's score and name to a file.
++10 points for each correct answer
 
-Displays a sorted leaderboard showing top scores.
+−3 points for each incorrect answer
 
-Uses simple text input for answers (A, B, C, or D).
++9 bonus points at the end
 
-How the Game Works
+🏆 Leaderboard – Automatically saves and displays high scores.
 
-The program starts by printing a welcome message.
+📂 Persistent Storage – Scores are saved in scores.txt.
 
-Questions and answers are stored in lists.
+🖥 Beginner-Friendly Python Code – Simple and easy to understand.
 
-The questions and answers are paired using the zip() function.
+📌 How It Works
 
-Ten random question-answer pairs are selected.
+The program displays a welcome banner.
 
-The user answers each question by typing the letter of their choice.
+Randomly selects 10 questions from the question bank.
 
-The program checks each answer and updates the score:
+The user answers each question (A/B/C/D).
 
-Correct answer: +10 points
+The score is calculated and bonus added.
 
-Wrong answer: -3 points
+User enters their name.
 
-After all questions, the program:
+Score is saved in scores.txt.
 
-Adds a +9 bonus
+The leaderboard is displayed, sorted by highest score.
 
-Shows the final score
+📁 File Structure
+📦 Programming-Quiz-Game
+ ┣ 📜 quiz.py           # Main quiz script
+ ┣ 📜 scores.txt        # Stored high scores
+ ┗ 📜 README.md         # Project documentation
 
-Asks for the user’s name
+▶ How to Run
 
-The score and name are saved to scores.txt.
+Make sure Python is installed on your system.
 
-The file is read, sorted in descending order, and shown as a leaderboard.
-
-Project Files
-quiz_game.py       # main program
-scores.txt         # stores scores and player names (auto-created)
-README.md          # documentation
-
-Requirements
-
-Python 3.x
-
-No external libraries are required.
-Only built-in Python modules are used.
-
-How to Run
-
-Make sure you have Python 3 installed.
-
-Run the script by typing:
-
-python quiz_game.py
+python quiz.py
 
 
-Answer the questions as they appear.
+The game will start instantly and prompt you with questions.
 
-Enter your name at the end to save your score.
+💡 Requirements
 
-Check the leaderboard printed by the program.
+Python 3.6+
 
-Code Summary
+No external libraries required (only built-in modules)
 
-Questions are stored in a list.
+📝 Customization
 
-Answers are stored in a matching list.
+You can easily modify the quiz by:
 
-The program uses random.sample() to select 10 random questions.
+Adding new questions to Questions list.
 
-Scores are calculated based on correct and incorrect answers.
+Updating or changing answer options.
 
-Results are saved and displayed in sorted order.
+Adjusting scoring rules.
 
-Possible Future Improvements
+Changing number of questions asked.
 
-Add a timer for each question.
+🏅 Leaderboard Format
 
-Store questions in a JSON file.
+score | name
 
-Add multiple difficulty levels.
+Example:
 
-Add a percentage score display.
+89     |   Alice
+72     |   Mark
+54     |   Rahul
 
-Create a graphical version.
+🤝 Contribution
+
+Pull requests and improvements are welcome!
+You may add:
+
+GUI interface
+
+Difficulty levels
+
+Category-based question selection
+
+📜 License
+
+This project is free to use, modify, and distribute.
